@@ -10,7 +10,7 @@ CChain::CChain(int difficulty)
 
     mChain.push_back(CBlock(0));
 
-    mCurrentlBlock = &mChain[0]
+    mCurrentlBlock = &mChain[0];
 };
 
 
