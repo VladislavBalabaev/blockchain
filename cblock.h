@@ -29,7 +29,7 @@ namespace blockchain
 
         void calculateHash();                               // calculates sha256 hash
         
-        uint8_t getHash();                                  // current hash -> mHash
+        uint8_t* getHash();                                  // current hash -> mHash
         
         std::string getHashStr();                           // get string representation of the hash
         
