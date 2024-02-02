@@ -8,7 +8,7 @@ namespace blockchain
 {
     class CBlock
     {
-        private:
+    private:
         uint8_t mHash[SHA256_DIGEST_LENGTH];                // current hash
         
         uint8_t mPrevHash[SHA256_DIGEST_LENGTH];            // previous hash
@@ -24,7 +24,7 @@ namespace blockchain
         uint32_t mNonce;                                    // nonce of the block
 
 
-        public:
+    public:
         CBlock(CBlock* prevBlock);                          // constructor
 
         void calculateHash();                               // calculates sha256 hash
